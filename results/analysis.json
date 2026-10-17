@@ -1,0 +1,13 @@
+{
+  "max_objective_recheck_gap": 3.760313704859186e-08,
+  "statuses": {
+    "optimal_inaccurate": 47,
+    "optimal": 529
+  },
+  "dominance_cells": 144,
+  "median_solve_seconds": {
+    "nominal": 0.0143684155,
+    "scenario": 0.326418125,
+    "box": 0.04102202
+  }
+}

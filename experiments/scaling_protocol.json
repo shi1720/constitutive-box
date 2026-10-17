@@ -1,0 +1,10 @@
+{
+  "vertices": [32, 64, 128],
+  "graphs": ["eight-nearest-neighbor geometric plus vertex chain", "complete"],
+  "coordinate_seed": "700+n",
+  "support_seeds": [101, 202, 303],
+  "requested_retained_fractions": [0.5, 0.75, 0.9],
+  "contrasts": [1, 2, 4, 8],
+  "refit": "closed-form scalar multiplier only",
+  "expected_rows": 216
+}

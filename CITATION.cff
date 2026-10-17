@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research manuscript."
+title: "Constitutive-Box Certificates: Uniform Spectral Accuracy for Compressed Learned Diffusion Networks"
+authors:
+  - family-names: Gupta
+    given-names: Shivam
+    affiliation: Independent Researcher
+type: software
+version: 1.0.0
+date-released: 2026-10-17
+url: https://github.com/shi1720/constitutive-box
+license: MIT

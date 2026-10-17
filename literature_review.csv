@@ -1,0 +1,14 @@
+area,primary_source,relationship,contribution_boundary
+Spectral sparsification,https://doi.org/10.1137/080734029,Effective-resistance sampling preserves every quadratic form of one supplied graph,No new static sparsification theorem or near-linear-time claim
+Linear-sized sparsification,https://doi.org/10.1137/090772873,Foundational all-state spectral approximation,Our fixed-support refit does not improve edge-count guarantees
+Compatible learned graph operators,https://doi.org/10.1016/j.jcp.2022.110969,Learned metric information with exact physical structure,We audit compression over shared scalar coefficient intervals
+Positive hyper-reduction,https://doi.org/10.1002/nme.4668,Energy-based mesh sampling and weighting,Nonnegative weighting and structure preservation are established
+Gradient-preserving hyper-reduction,https://arxiv.org/abs/2206.01792,Preserves gradient structure with a tailored DEIM strategy,Our model retains vertices and certifies scalar coefficient boxes
+Empirical-quadrature training compression,https://arxiv.org/abs/2512.14416,Compresses training data for efficient empirical quadrature,Our object is deployment coefficient-envelope distortion
+Robust interval LMIs,https://doi.org/10.1137/S1052623400374756,Matrix-cube methods and tractable robust LMIs,Two-envelope proof is a monotone sign-definite specialization
+PSD-sum sparsification,https://doi.org/10.1137/1.9781611978971.216,Recent instance-dependent sparsification of PSD sums,Does not supply our fixed multiplier envelope audit by itself
+Entropy-stable ROM,https://doi.org/10.1016/j.jcp.2020.109789,Conservation and entropy inequalities under hyper-reduction,Physical structure is distinct from the uniform distortion contract
+Industrial circuit sparsification,https://doi.org/10.1109/TCAD.2015.2424958,Industrial motivation for support-graph compression,No transfer of their runtime results to our experiments
+GNN spectrum-preserving rewiring,https://arxiv.org/abs/2506.16110,Adjacent graph learning application of spectrum preservation,No GNN prediction or rewiring superiority claim
+Convex modeling software,https://www.jmlr.org/papers/v17/15-408.html,CVXPY used for modeling,Not a solver-method contribution
+Conic optimization solver,https://arxiv.org/abs/2405.12762,Clarabel used for fitting,Solver statuses and numerical limitations retained

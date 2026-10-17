@@ -1,0 +1,5 @@
+numpy==1.26.4
+scipy==1.13.1
+matplotlib==3.9.4
+cvxpy==1.7.5
+clarabel==0.11.1

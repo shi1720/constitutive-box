@@ -1,0 +1,16 @@
+{
+  "question": "How does fixed-support spectral accuracy degrade under independently bounded edge conductances, and can exact box refitting improve it?",
+  "graph_vertices": 16,
+  "graph_families": ["grid_with_diagonals", "geometric_five_neighbor_plus_chain", "two_cliques_two_bridges", "complete"],
+  "support_seeds": [101,202,303,404],
+  "support_fractions": [0.5,0.75,0.9],
+  "contrast": [1,2,4,8],
+  "methods": ["nominal_minimax_SDP", "eight_learned_scenario_minimax_SDP", "exact_box_minimax_SDP"],
+  "heldout_learned_scenarios": 128,
+  "heldout_independent_box_scenarios": 128,
+  "teacher_training_parameters": 128,
+  "learned_field_model": "6 inputs, 16 tanh units, logistic output; L-BFGS-B, maxiter 400",
+  "exhaustive_check": {"graph": "K4", "random_multiplier_instances":120, "corners_each":64, "seed":1720406},
+  "dynamics": {"steps":100,"dt":0.04,"coefficient_time_factor":"1+0.25*sin(0.31*k)","seed":501},
+  "interpretation": "Synthetic mechanism study; fixed support comparison; no PDE continuum convergence or production speed claim. Protocol is locally recorded, not preregistered."
+}

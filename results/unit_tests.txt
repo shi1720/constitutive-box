@@ -1,0 +1,11 @@
+test_disconnected_support (test_certificates.Certificates) ... ok
+test_identity_and_empty (test_certificates.Certificates) ... ok
+test_independent_enumeration (test_certificates.Certificates) ... ok
+test_invalid_domains (test_certificates.Certificates) ... ok
+test_lower_bound_and_fit (test_certificates.Certificates) ... ok
+test_scalar_solution (test_certificates.Certificates) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.726s
+
+OK

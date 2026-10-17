@@ -1,0 +1,49 @@
+{
+  "exhaustive": {
+    "instances": 120,
+    "corners_per_instance": 64,
+    "corner_evaluations": 7680,
+    "max_gap": 7.993605777301127e-15
+  },
+  "fields": {
+    "grid": {
+      "train_rmse": 0.003187194847356291,
+      "test_rmse": 0.0033919187851324823,
+      "iterations": 400,
+      "success": false,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "seconds": 0.530887
+    },
+    "geometric": {
+      "train_rmse": 0.003063693051398777,
+      "test_rmse": 0.003200351981386749,
+      "iterations": 400,
+      "success": false,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "seconds": 0.6056625000000011
+    },
+    "clustered": {
+      "train_rmse": 0.0026318081327704416,
+      "test_rmse": 0.002654785441901648,
+      "iterations": 400,
+      "success": false,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "seconds": 0.5708139589999988
+    },
+    "complete": {
+      "train_rmse": 0.0025314622287815444,
+      "test_rmse": 0.0026452048854007917,
+      "iterations": 400,
+      "success": false,
+      "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+      "seconds": 1.508272875000003
+    }
+  },
+  "rows": 576,
+  "cells": 192,
+  "seconds": 102.133446667,
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "platform": "macOS-27.0.1-arm64-arm-64bit"
+}
