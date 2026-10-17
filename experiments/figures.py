@@ -15,8 +15,8 @@ labels={'nominal':'Nominal fit','scenario':'8-scenario fit','box':'Box fit'}
 
 fig,ax=plt.subplots(figsize=(7.1,2.2));ax.axis('off')
 items=[(.02,'Bounded material law',r'$\ell_e\leq c_e\leq h_e$'+'\nLearned or prescribed'),
-       (.35,'Fixed compressed graph',r'$\widehat L(c)=\sum_e s_ec_e b_eb_e^T$'+'\nNonnegative multipliers'),
-       (.68,'Uniform accuracy check',r'$U_\epsilon\preceq0,\quad V_\epsilon\preceq0$'+'\nTwo extremal coefficient settings')]
+       (.35,'Fixed sparse graph',r'$\widehat L(c)=\sum_e s_ec_e b_eb_e^T$'+'\nNonnegative multipliers'),
+       (.68,'Uniform spectral test',r'$U_\epsilon\preceq0,\quad V_\epsilon\preceq0$'+'\nTwo extremal settings')]
 for x,title,body in items:
  ax.add_patch(FancyBboxPatch((x,.25),.29,.57,boxstyle='round,pad=.015',facecolor='#eff5f7',edgecolor='#8ca6b2',transform=ax.transAxes))
  ax.text(x+.145,.68,title,ha='center',weight='bold',transform=ax.transAxes)
